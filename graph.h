@@ -16,7 +16,7 @@ typedef struct {
     Edge* edges;     
 } GraphTDA;
 
-GraphTDA* load_image_to_graph(const char* file_path);
+GraphTDA* load_image_to_graph( char* file_path);
 
 void free_graph(GraphTDA* g);
 
